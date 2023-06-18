@@ -12,8 +12,8 @@
 #### Gestion de documents avec mots-clés
 Ce programme en langage C permet de gérer des documents en utilisant une structure de données appelée "Document". Chaque document est caractérisé par un titre, un auteur et une liste de mots-clés. Chaque document peut contenir jusqu'à sept mots-clés.
 
- Fonctionnalités principales :
- 
+ Fonctionnalités principales : 
+
  * Création d'un document : La fonction `creationdedoc` permet de créer un document en spécifiant son titre, son auteur et une liste de mots-clés. Elle alloue dynamiquement de la mémoire pour le document et renvoie un pointeur vers ce dernier.
  * Destruction d'un document : La fonction `destructiondoc` libère la mémoire allouée pour un document.
  * Affichage d'un document : La fonction `affichage` affiche les informations d'un document, y compris son titre, son auteur et sa liste de mots-clés.
